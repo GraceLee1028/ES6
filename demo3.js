@@ -19,10 +19,11 @@ function is32Bit(c) {
 console.log(is32Bit("我"));
 console.log(is32Bit("a"));
 
+//字符串的新增的方法
 var s = 'Hello world!';
-
 console.log(s.startsWith('Hello'));// true
 console.log(s.endsWith('!'));// true
+//是否包含
 console.log(s.includes('o'));// true
 //如果repeat的参数是负数或者Infinity，会报错。
 var s2 = s.repeat(2);
@@ -34,4 +35,4 @@ function getName(){
     return "lee";
 }
 console.log(`Hello ${name}, how are you ${time}?`);
-console.log('hi,my name is ${getName()}');
+console.log(`hi,my name is ${getName()}`);

@@ -29,7 +29,6 @@ f();
 //console.log(temp); // undefined
 
 //块级作用域之中，函数声明语句的行为类似于let，在块级作用域之外不可引用。
-
 {
     function f(){console.log("test");}
     let a = "test";
