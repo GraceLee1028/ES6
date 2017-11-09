@@ -6,4 +6,3 @@
 const PI = 3.1415;
 let a = "hello";
 console.log(a);
-

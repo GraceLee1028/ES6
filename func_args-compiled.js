@@ -90,8 +90,24 @@ console.log(arr);
 //合并数组
 //es5 concat,【返回新的数组，不影响原数组】
 console.log(arr.concat([2, 4]));
-
 //es6
 console.log([].concat(arr, ['cd']));
+
+//3、From function expressions in object literals to method definitions
+var obj = {
+    init: function init() {
+        "use strict";
+
+        this.testGo();
+    },
+    testGo: function testGo() {
+        "use strict";
+
+        console.log("go go go");
+    }
+};
+obj.init();
+
+//4、From constructors to classes
 
 //# sourceMappingURL=func_args-compiled.js.map
