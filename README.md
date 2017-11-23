@@ -10,3 +10,5 @@ webstorm es6 配置
     ]
   }
 ④、将javascript设置为es6
+⑤、设置babel参数
+Arguments:--source-maps --out-file $FileNameWithoutExtension$-compiled.js --presets es2015 $FilePath$

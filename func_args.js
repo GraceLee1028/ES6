@@ -114,3 +114,4 @@ let w = new Wang("wang","ES5:");
 let l = new Lea("lea","ES6:");
 console.log(w.describe());
 console.log(l.describe());
+console.log(l.name);
