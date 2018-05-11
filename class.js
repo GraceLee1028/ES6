@@ -62,7 +62,7 @@ class Person{
         this.age = age;
     }
     sayHello(){
-        console.log('你好，我叫'+this.name+',今年'+"岁，很高兴见到大家");
+        console.log('你好，我叫'+this.name+',今年'+this.age+"岁，很高兴见到大家");
     }
 }
 console.log(Person);

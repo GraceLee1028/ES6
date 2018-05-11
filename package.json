@@ -1,0 +1,22 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "ES6的学习示例\r webstorm es6 配置\r ①、npm install -g babel-cli\r ②、npm install --save-dev babel-preset-es2015\r ③、根路径新建.babelrc文件，内容如下\r   {\r     \"presets\": [\r       \"es2015\"\r     ]\r   }\r ④、将javascript设置为es6",
+  "main": "array-compiled.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifengand1992/ES6.git"
+  },
+  "author": "lea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lifengand1992/ES6/issues"
+  },
+  "homepage": "https://github.com/lifengand1992/ES6#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
